@@ -2,7 +2,7 @@ apiVersion: skaffold/v1beta2
 kind: Config
 build:
   artifacts:
-  - image: jasonwc-jenkinsx-example/yo-backend
+  - image: iustinam90/yo-backend
     context: .
     docker: {}
   tagPolicy:
